@@ -1,0 +1,22 @@
+.log
+*.log
+**/dist
+**/build
+**/lib
+**/.next
+**/node_modules
+node_modules
+package-lock.json
+contract.wasm.gz
+
+# Mac OS X custom attribute files
+.DS_Store
+.env
+.env.*
+!.env.example
+
+test/__snapshots__
+.awcache
+.next
+*.tsbuildinfo
+.vercel
